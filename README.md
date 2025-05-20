@@ -17,19 +17,19 @@ lenght <-- 0;
 words <-- 0;
 vowels <-- 0;
 
-while (ch[i] != '.') do {
+while (ch[i] != '.') do 
 lenght <-- length + 1;
 
-    if (ch[i] == ' ') then {
+    if (ch[i] == ' ') then 
         words <-- words + 1;
-    }
+    Endif
 
-    if (ch[i] == 'a' or ch[i] == 'e' or ch[i] == 'i' or ch[i] == 'o' or ch[i] == 'u') then {
+    if (ch[i] == 'a' or ch[i] == 'e' or ch[i] == 'i' or ch[i] == 'o' or ch[i] == 'u') then
         vowels <-- vowels + 1;
-    }
+    Endif
 
     i <-- i + 1;
-    }
+    Done
 
 words <-- words + 1; // for the last word
 lenght <-- lenght + 1;// top count the last dot
